@@ -16,12 +16,12 @@ const Home = ({user, error}) => {
         :
       (<div>
                 <h2 className="text-2xl font-bold mb-4 text-gray-800">
-                    Welcome
+                    Welcome!
                 </h2>
-                <p className="text-gray-600">Please login or register</p>
-                <div>
-                    <Link to="/login">Login</Link><br />
-                    <Link to="/register">Register</Link>
+                <p className="text-2xl font-bold mb-6 text-gray-600">Please login or register</p>
+                <div className="flex flex-col space-y-4">
+                    <Link className="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-blue-800 font-medium" to="/login">Login</Link>
+                    <Link className="w-full bg-gray-500 text-white p-3 rounded-md hover:bg-gray-800 font-medium" to="/register">Register</Link>
                 </div>
                 </div>)}
             </div>
