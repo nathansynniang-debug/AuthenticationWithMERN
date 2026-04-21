@@ -2,7 +2,7 @@
 
 A simple and secure Full-Stack authentication system using MongoDB, Express, React, and Node.js.
 
-## 🚀 How to Run
+##  How to Run
 
 To start both the frontend and the backend server simultaneously, run:
 
@@ -21,26 +21,23 @@ An .env.example file is provided in the root directory. To set up your environme
 
 ## Installation
 
-    Clone the repo
+Clone the repo
     
-    ```Bash
     git clone https://github.com/nathansynniang-debug/AuthenticationWithMERN.git
-    ```
-
-    Enter the folder directory: 
-
-    Install dependencies
     
-    ```Bash
+
+Enter the folder directory: 
+
+Install dependencies
+    
+    
     npm run setup
-    ```
+    
 
 ## Run the server
 
-    
-    ```Bash 
     npm run dev
-    ```
+    
 
 ## Features
 
